@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 21, 2019 at 12:26 PM
+-- Generation Time: Jun 05, 2019 at 08:39 AM
 -- Server version: 10.1.40-MariaDB
 -- PHP Version: 7.3.5
 
@@ -97,7 +97,8 @@ INSERT INTO `miestai` (`id`, `pav`, `gyv_sk`, `plotas`, `platuma`, `ilguma`, `va
 (7, 'Ukmergė', 20591, '64.00', '55.2499500', '24.7649900', 'LTU'),
 (8, 'Marijampolė', 40678, '35.00', '54.5578120', '23.3498100', 'LTU'),
 (9, 'Druskininkai', 5053, '24.00', '54.0153390', '23.9784110', 'LTU'),
-(10, 'Ignalina', 5053, '6.90', '55.3428000', '26.1647800', 'LTU');
+(10, 'Ignalina', 5053, '6.90', '55.3428000', '26.1647800', 'LTU'),
+(11, 'Utena', 10000, '10.00', '56.0000000', '26.0000000', 'LTU');
 
 --
 -- Indexes for dumped tables
@@ -136,7 +137,7 @@ ALTER TABLE `lankyt_vietos`
 -- AUTO_INCREMENT for table `miestai`
 --
 ALTER TABLE `miestai`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- Constraints for dumped tables
